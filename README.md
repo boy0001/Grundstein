@@ -16,9 +16,15 @@ Grundstein brings protecting players properties to the easiest level and is high
   - Add/remove players in individual chunks, within a given radius or all your claims
   - *Trust* players on chunks to grant them higher privileges like adding or removing players themselves or set flags
   - *Deny* players from enter a specific or all your claims
+- Protection expiration/purge system
 - Many flags indiviual setable at every chunk or whole areas
 - Detailed purging system for orphaned chunks
 - Highly configurable permission system
+- Multiworld support
 - Toggleable WorldEdit support
-- MySQL support
+- MySQL/SQLlite support
+- Mojang UUID support (of course!)
+- Planned API for addons
+- Convert WorldGuard regions to Grundstein
+- Detect WorldGuard regions to prevent Grundstein claims.
 - And much more ...
