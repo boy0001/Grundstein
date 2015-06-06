@@ -53,6 +53,5 @@ P_SETOWNER_RADIUS("The new owner of an area of %s chunks around is now %s","USER
 P_SETOWNER_ALL("The new owner of all your areas is now %s","USERMGMT")
 
 //DISPUTE
-//even more DISPUTE
 
 PREFIX("&4[&6Grundstein&4]%f","MISC")
