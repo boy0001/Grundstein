@@ -1,0 +1,58 @@
+
+
+PROTECT_COMMAND("Protects the current or multiple chunks around you.\nUsage:/gs protect [radius]","CLAIMS")
+PROTECT_CHUNK("This area is now protected.","CLAIMS")
+PROTECT_RADIUS("An area of %s chunks around you has been protected:","CLAIMS")
+PROTECT_ALREADY_CLAIMED("This area cannot be claimed. It belongs to %s","CLAIMS")
+PROTECT_WG("This area cannot be claimed.","CLAIMS)
+PROTECT_LIMIT_MAX("You already claimed the max of allowed claims","CLAIMS")
+PROTECT_MISSINGGS("You need at least %s more Grundstein to claim this area","CLAIMS")
+PROTECT_GSONLY("Claiming with blocks is disabled. You need to use the /gs protect command.","CLAIMS")
+PROTECT_COMMANDONLY("Claming by command is disabled. You need to use Blocks")
+PROTECT_FIRSTCLAIM("This area is now protected from others. To manage your claim see /gs help.","CLAIMS")
+
+SHOW_AREA("All chunks connected to this one are highlighted for a few seconds","CLAIMS")
+
+UNCLAIM_COMMAND("Unclaims the current or multiple chunks.\nUsage: /gs unclaim [radius|all]","CLAIMS")
+UNCLAIM("This area is no longer protected.","CLAIMS")
+UNCLAIM_RADIUS("An area of %s chunks around is no longer protected.","CLAIMS")
+UNCLAIM_ALL("All your claimed areas are no longer protected.","CLAIMS")
+
+
+NO_PERM("You are not allowed to do %s!","MISC)
+NO_PERM_VERBOSE("Lacking of %s permission node","MISC")
+
+
+P_ADD_COMMAND("Adds a player to this or multiple chunks so he can build and access chests.\nUsage: /gs add <name> [radius|all]","USERMGMT")
+P_ADD_CHUNK("Player %s has been added to this area","USERMGMT")
+P_ADD_RADIUS("Player %s has been added an area of %s chunks around you.","USERMGMT")
+P_ADD_ALL("Player %s has been added to all your areas.","USERMGMT")
+P_ADD_ALREADY("Player %s has been already added to your area.","USERMGMT")
+
+P_TRUST_COMMAND("Trusts a player in this or multiple chunks so he can set flags or manage other players' access.\nUsage: /gs trust <name> [radius|all]","USERMGMT")
+P_TRUST_CHUNK("Player %s has been trusted in this area","USERMGMT")
+P_TRUST_RADIUS("Player %s has been trusted in area of %s chunks around you.","USERMGMT")
+P_TRUST_ALL("Player %s has been trusted in all your areas.","USERMGMT")
+P_TRUST_ALREADY("Player %s has been already trusted in this area.","USERMGMT")
+
+P_REMOVE_COMMAND("Removes a player from this or multiple chunks.\nUsage: /gs remove <name> [radius|all]","USERMGMT")
+P_REMOVE_CHUNK("Player %s has been removed from this area","USERMGMT")
+P_REMOVE_RADIUS("Player %s has been removed from an area of %s chunks around you.","USERMGMT")
+P_REMOVE_ALL("Player %s has been removed from all your areas.","USERMGMT")
+P_REMOVE_ALREADY("Player %s was not added in your area.","USERMGMT")
+
+P_DENY_COMMAND("Denies a player from this or multiple chunks so he can not access it anymore.\nUsage: /gs remove <name> [radius|all]","USERMGMT")
+P_DENY_CHUNK("Player %s is now denied in this area","USERMGMT")
+P_DENY_RADIUS("Player %s is now denied in an area of %s chunks around you.","USERMGMT")
+P_DENY_ALL("Player %s is now denied in all your areas.","USERMGMT")
+P_DENY_ALREADY("Player %s has been denied already denied in your area.","USERMGMT")
+
+P_SETOWNER_COMMAND("Transfers the ownership of this or multiple chunks to another player.\nUsage: /gs setowner <name> [radius|all]","USERMGMT")
+P_SETOWNER_CHUNK("The new owner of this chunk is now %s","USERMGMT")
+P_SETOWNER_RADIUS("The new owner of an area of %s chunks around is now %s","USERMGMT")
+P_SETOWNER_ALL("The new owner of all your areas is now %s","USERMGMT")
+
+//DISPUTE
+
+
+PREFIX("&4[&6Grundstein&4]%f","MISC")
