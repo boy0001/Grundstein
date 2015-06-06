@@ -52,6 +52,32 @@ P_SETOWNER_CHUNK("The new owner of this chunk is now %s","USERMGMT")
 P_SETOWNER_RADIUS("The new owner of an area of %s chunks around is now %s","USERMGMT")
 P_SETOWNER_ALL("The new owner of all your areas is now %s","USERMGMT")
 
-//DISPUTE
+DISPUTE_COMMAND("Report an area to staff with reason.\nUsage: /gs dispute <message>","DISPUTE")
+DISPUTE_NOCHUNK("You are not standing within a claimed area.","DISPUTE")
+DISPUTE_SENT("Your report has been sent and will be reviewed by staff soon.","DISPUTE")
+DISPUTE_ALREADY("This area has been already disputed.","DISPUTE")
+DISPUTE_BANNED("You are not allowed to dispute an area.","DISPUTE")
+DISPUTE_BANNED_REASON("Reason: %s","DISPUTE")
+
+MD_COMMAND("Manage player disputes.\nUsage: /gs md <tp|close|ban|unban|purge|list> <number|player|days> [message]","DISPUTE")
+MD_COMMAND_LIST("Open disputes:","DISPUTE") //followed by a table
+MD_COMMAND_LISTMORE("There are %s pages with open disputes","DISPUTE") //number of all pages obviously
+MD_COMMAND_LIST_WRONGPAGE("This page does not exist","DISPUTE")
+MD_COMMAND_TP("Teleports you to the reporters coordinates\nUsage: /gs tp <number>","DISPUTE")
+MD_COMMAND_TP_RIGHTNUMBER("Teleporting you to %s","DISPUTE") // either chunk or block coordinates
+MD_COMMAND_TP_WRONGNUMBER("This dispute does not exist. Check /gs md list again.","DISPUTE")
+MD_COMMAND_CLOSE("Close a dispute with an optional reason.\nUsage: /gs md close <number> [reason]","DISPUTE")
+MD_COMMAND_CLOSE_RIGHTNUMBER("Closed dispute %s","DISPUTE")
+MD_COMMAND_CLOSE_RIGHTNUMBER_REASON("Closed dispute %s. Reason: %s","DISPUTE")
+MD_COMMAND_CLOSE_TOPLAYER("Your disputed was closed by %s.","DISPUTE")
+MD_COMMAND_CLOSE_TOPLAYER_REASON("Your disputed was closed by %s. Reason: %s","DISPUTE")
+MD_COMMAND_PURGE("Purges closed disputes older than given number of days"\nUsage: /gs md purge <days>","DISPUTE")
+MD_COMMAND_PURGE_NONUMERIC("Number of days has to be numeric","DISPUTE")
+MD_COMMAND_PURGE_NOHITS("Could not find any closed disputes older than %s days.","DISPUTE")
+MD_COMMAND_PURGE_SUCCESS("Purged %s disputes from database","DISPUTE")
+
+MD_NEWDISPUTE("%s opened a dispute. Reason: %s","DISPUTE")
+
+
 
 PREFIX("&4[&6Grundstein&4]%f","MISC")
