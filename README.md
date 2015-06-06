@@ -27,4 +27,5 @@ Grundstein brings protecting players properties to the easiest level and is high
 - Planned API for addons
 - Convert WorldGuard regions to Grundstein
 - Detect WorldGuard regions to prevent Grundstein claims.
+- Upcoming Dynmap addon
 - And much more ...
