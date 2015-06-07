@@ -3,6 +3,13 @@
 Bored about securing players buildings by hand or you don't like static plot worlds?
 Grundstein brings protecting players properties to the easiest level and is highly configurable at the same time.
 
+The main focus for this protection system is simplicity for players, but whilst also having powerful functions for administrators. This will make managing survival or open world creative servers much easier.
+
+For example, this plugin can be configured to automatically figure out what areas should or should not be protected, thus requiring no input from players on the server. There will even be support for VoxelSniper and WorldEdit protection so you can either protect areas that have been edited, or require a protected area in order to edit.
+
+The plugin will also be quite powerful at the same time, with an advanced flag and user allowance system that can be applied across all your claims, or just a specific area. On top of this will be claim purging and world trimming which will help streamline your survival or creative server.
+
+
 
 ###Features
 - Multiple ways of claming chunks:
